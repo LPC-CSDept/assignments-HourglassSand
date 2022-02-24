@@ -6,19 +6,23 @@ using namespace std;
 
 int main()
 {
-	int 6, 8, 10;
+	int num1, num2, num3;
+	int sum; 
+	float avg;
 	srand(time(0));
 	
-	6 = rand() % 100 ; // 0 ~ 99  
+	num1 = rand() % 100 ; // 0 ~ 99  
 	cout << num1 << endl;
 
-	8 = rand() % 100 ; // 0 ~ 99  
+	num2 = rand() % 100 ; // 0 ~ 99  
 	cout << num2 << endl;
 
-    10 = rand() % 100 ; // 0 ~ 99  
-	cout << num2 << endl;
+    num3 = rand() % 100 ; // 0 ~ 99  
+	cout << num3 << endl;
 
 
-    sum = 6 + 8 + 10;
+    sum = num1 + num2 + num3;
+	cout << sum << endl;
 	avg = sum / 3.0;
+	cout << avg << endl;
 }
